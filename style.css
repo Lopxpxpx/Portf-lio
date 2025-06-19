@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root {
+    --cor-principal: #808080;
+    --cor-secundaria: #ebf3fc;
+    --cor-destaque: #75fbed;
+}
+
+body {
+    background-color: #141414;
+    font-family: "Caveat", cursive;
+    color: var(--cor-principal);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 1200;
+    font-size: 38px;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+    font-size: 34px;
+}
+
+a, .btn-link:hover {
+    color: #367a74
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+div.card{
+    background-color: rgb(39, 39, 39);
+    color: var(--cor-secundaria)
+}
+
+p.badge{
+    color: var(--cor-secundaria)
+}
+
+div.modal{
+    color: var(--cor-secundaria);
+}
+
+div.modal-content {
+    background-color: rgb(39, 39, 39)
+
+}
